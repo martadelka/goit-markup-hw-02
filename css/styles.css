@@ -50,6 +50,7 @@ h1, h2, h3, h4, h5, h6 {
 .logo {
     color: var(--primary-brand);
     font-family: 'Raleway', sans-serif;
+    font-size: 18px;
     font-weight: 800;
     font-size: 18;
     line-height: 1.17;
@@ -63,6 +64,12 @@ h1, h2, h3, h4, h5, h6 {
 
 .studio-two {
     color: var(--light);
+}
+
+.adress-link {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--text);
 }
 
 .button {
@@ -82,12 +89,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .address {
     font-style: normal;
-}
-
-.first-link {
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--text);
 }
 
 .hero {
