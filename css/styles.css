@@ -1,0 +1,58 @@
+:root {
+	--primary-brand: #4d5ae5;
+	--pressed-state: #404bbf;
+	--dark: #2e2f42;
+	--success: #31d0aa;
+	--text: #434455;
+	--subtle-text: #8e8f99;
+	--accent: #e7e9fc;
+	--light: #f4f4fd;
+	--modal-overlay: #2e2f42;
+	--hero-background: #2e2f42;
+	--white-background: #ffffff;
+	--modal-background: #fcfcfc;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--text);
+    background-color: var(--white-background);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+.list {
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.link {
+    color: var(--dark);
+}
+
+.link:hover,
+.link:focus {
+    color: var(--pressed-state);
+}
+
+.button {
+    color: var(--white-background);
+    background-color: var(--primary-brand);
+    border: 0;
+    cursor: pointer;
+}
+
+.button:hover,
+.button:focus {
+    color: var(--white-background);
+    background-color: var(--pressed-state);
+    border: 0;
+    cursor: pointer;
+}
