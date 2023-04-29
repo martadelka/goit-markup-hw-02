@@ -23,6 +23,7 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0;
 }
 
+
 .list {
     list-style: none;
     margin: 0;
@@ -31,15 +32,37 @@ h1, h2, h3, h4, h5, h6 {
 
 .link {
     text-decoration: none;
+    color: var(--dark);
+    text-decoration: none;
 }
 
-.link {
-    color: var(--dark);
+.first-menu {
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 .link:hover,
 .link:focus {
     color: var(--pressed-state);
+}
+
+.logo {
+    color: var(--primary-brand);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.studio {
+    color: var(--dark);
+}
+
+.studio-two {
+    color: var(--light);
 }
 
 .button {
@@ -55,4 +78,85 @@ h1, h2, h3, h4, h5, h6 {
     background-color: var(--pressed-state);
     border: 0;
     cursor: pointer;
+}
+
+.address {
+    font-style: normal;
+}
+
+.first-link {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--text);
+}
+
+.hero {
+    background-color: var(--modal-overlay);
+}
+
+.first-header {
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--white-background);
+}
+
+.order-service {
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+}
+
+.first-h {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--dark);
+}
+
+.first-p {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.what-we-do {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--dark);
+}
+
+.team {
+    background-color: var(--light);
+}
+
+.our-team {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--dark);    
+}
+
+.first-li {
+    background-color: var(--white-background);
+}
+
+.footer {
+    background-color: var(--modal-overlay);
+}
+
+.button-port {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--primary-brand);
+    background-color: var(--light);
 }
